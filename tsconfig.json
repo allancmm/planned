@@ -1,0 +1,20 @@
+{
+    "extends": "./node_modules/@equisoft/tslint-config/tsconfig.standards.json",
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noEmitOnError": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "forceConsistentCasingInFileNames": true,
+        "downlevelIteration": true,
+        "target": "es5",
+        "lib": ["dom", "esnext"]
+    },
+    "include": ["src/**/*", "jest-setup-file.ts"],
+    "exclude": ["node_modules/**/*"]
+}

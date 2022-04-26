@@ -1,0 +1,24 @@
+{
+    "extends": ["@equisoft/tslint-config", "@equisoft/tslint-config-react", "tslint-config-prettier"],
+    "linterOptions": {
+        "exclude": ["src/**/style.ts"]
+    },
+    "rules": {
+        // Adds "allow-pascal-case" for variable components https://github.com/palantir/tslint-react/issues/120
+        "variable-name": {
+            "options": ["ban-keywords", "check-format", "allow-pascal-case", "allow-leading-underscore"]
+        },
+        "no-default-export": false,
+        "jsx-no-multiline-js": false,
+        "jsx-no-lambda": false,
+        "jsx-boolean-value": [true, "never"],
+        "no-floating-promises": false,
+        "file-name-casing": [true, { ".js": "camel-case", ".jsx": "kebab-case" }],
+        "prefer-readonly": false,
+        "no-inferrable-types": false,
+        "no-import-side-effect": false,
+        "ordered-imports": false,
+        "no-dynamic-delete": false,
+        "no-bitwise": false
+    }
+}

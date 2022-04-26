@@ -1,0 +1,1 @@
+export type EntityTypeSecurityGroup = 'PLAN' | 'TRANSACTIONS' | 'INQUIRY_SCREEN' | 'COMPANY' | 'PRODUCT';

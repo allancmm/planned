@@ -1,0 +1,34 @@
+# IDE and editors
+/.idea
+.project
+.classpath
+*.launch
+.settings/
+*.ipr
+*.iml
+.vscode/
+
+# System Files
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+
+# Misc
+*.log
+*.hprof
+
+# Node
+node_modules
+
+# Build directories and node
+.cache
+build/
+dist/
+http-fake-backend/
+node_modules/
+public/
+locales/
+yarn-error.log
+*.code-workspace
+stats.json
